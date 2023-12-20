@@ -1,0 +1,5 @@
+id,userid,username,createdDate,conversationId,tweetText,retweet,reply,like,quotes,isRetweet
+6988111565,111111111,testUsername,2022-01-13 12:45:34,6988111565,some text of a tweet,3680,487,10335,377,False
+3856964558,222222222,testUsername,2022-01-12 14:58:39,3856964558,some text of a tweet,85,18,88,401,False
+6558595543,333333333,testUsername,2022-01-11 16:55:55,6558595543,some text of a tweet,1,2,7,0,False
+4291211507,444444444,testUsername,2022-01-02 16:04:59,4291211507,some text of a tweet,7,2,18,1,False
