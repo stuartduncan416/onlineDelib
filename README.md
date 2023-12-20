@@ -11,3 +11,15 @@ Reddit data for this project was acquired using the Pushshift Reddit API, which 
 Despite these data access issues, we hope that by describing the process of how we calculated our measures of deliberative discourse and sharing the Python code employed throughout this project, will serve as resources that allows other researchers to adapt, critique and refine our methods using other sources of deliberative discourse. 
 
 This project uses the Python programming language, The Google Perspective API to measure comment toxicity, and the LIWC2015 software to calculate linguistic features of social media commentary. 
+
+In broad strokes these are the steps we used to complete this work:
+
+Search social media platforms for relevant content and output results to a CSV file
+In the case of Twitter this was done using Twarc to access the Twitter Academic API
+In the case of Reddit the platform was done using the PMAW Python library
+Run LIWC2015 on social media platform data and output results to a CSV file
+Run the social media content through the Google Perspective API, getting a toxicity measure for each social media comment (pespectiveMultiThread.py)
+Using Custom Python scripts sort these Twitter and Reddit messages into threads and calculate the outlined measures at a thread level (twitterAnalysis.py and redditAnalysis.py)
+Using Custom Python scripts calculate aggregate statistics for all threads across Twitter and Reddit (statsThread.py)
+Using Custom Python scripts calculate statistics based on date social media post was created regardless of thread (statsAllTweetComments.py)
+
