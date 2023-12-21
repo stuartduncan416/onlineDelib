@@ -25,3 +25,5 @@ In broad strokes these are the steps we used to complete this work:
 - Using Custom Python scripts calculate aggregate statistics for all threads across Twitter and Reddit (statsThread.py)
 - Using Custom Python scripts calculate statistics based on date social media post was created regardless of thread (statsAllTweetComments.py)
 
+This repository contains four anonymized sample csv data files which should provide a sense of the formatting of the original Twitter and Reddit data files. While these files consist of a sample of 100 records, original analysis was done using the provided scripts on 2.8 million tweets and over 500,000 Reddit comments. 
+
