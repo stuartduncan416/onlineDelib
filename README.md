@@ -12,7 +12,7 @@ Reddit data for this project was acquired using the Pushshift Reddit API, which 
 
 Despite these data access issues, we hope that by describing the process of how we calculated our measures of deliberative discourse and sharing the Python code employed throughout this project, will serve as resources that allows other researchers to adapt, critique and refine our methods using other sources of deliberative discourse. 
 
-This project uses the Python programming language, The Google Perspective API to measure comment toxicity, and the LIWC2015 software to calculate linguistic features of social media commentary. It should also work using [LIWC2022](https://www.liwc.app/). 
+This project uses the Python programming language, The [Google Perspective API](https://perspectiveapi.com/) to measure comment toxicity, and the LIWC2015 software to calculate linguistic features of social media commentary. It should also work using [LIWC2022](https://www.liwc.app/). 
 
 In broad strokes these are the steps we used to complete this work:
 
