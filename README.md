@@ -1,3 +1,5 @@
+# Towards a Computational Mixed Methods Framework to Measure Online 
+
 This repository contains more background information on the programmatic approach behind our computational method for measuring social media-based deliberative discourse. In our soon to be published-paper we test this method using a case study of Twitter and Reddit commentary surrounding the Canadian convoy protests of COVID-19 vaccine mandates and restrictions. 
 
 For more details on this project please reach out for a pre-print version of this forthcoming paper. This research, and the open-source ancillary material that supports it, works to encourage other researchers to test and refine our method using other sources of online deliberative discourse. 
